@@ -1,0 +1,32 @@
+.card {
+    display: flex;
+    flex-flow: column;
+    margin: 50px 10%;
+    border: 5px solid #252629;
+    padding: 3% 10%;
+    border-radius: 2rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    }
+.card__bookmark{
+    position: absolute;
+    background: none;
+    border: none;
+    top: 0;
+    right: 25px;
+    width: 28px;
+    height: 28px;
+    }
+.list{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;    
+    }
+.list-item{
+    background-color: rgb(158, 157, 157);
+    border-radius: 5px;
+    padding: 1px 8px;
+}
