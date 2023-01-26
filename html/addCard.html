@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/addCard.js" defer></script>
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header> 
+        <h1 class="header__title">Quiz App</h1>        
+    </header>
+    <main>
+        <form action="" data-js="form">
+            <fieldset>
+                <section class="newCard">
+                    <label class="newCard-h3" for="your-question"><h3>Your question:</h3></label>
+                    <textarea data-js="question" required name="your-question-area" id="question" cols="30" rows="5" maxlength="150"></textarea> 
+                    <output>Characters left: <span data-js="counter1"></span></output>
+                    <label class="newCard-h3" for="your-answer"><h3>Your answer:</h3></label>
+                    <textarea data-js="answer" required name="your-answer-area" id="answer" cols="30" rows="5" maxlength="150"></textarea>
+                    <output>Characters left: <span data-js="counter2"></span></output>
+                    <label class="newCard-h3" for="your-tags"><h3>Tags:</h3></label>
+                    <input type="text" name="your-tags-area" id="tags" cols="30" rows="1"></input> <br><br><br>      
+                    <button class="submit-button">Submit</button> <br><br>      
+                </section>           
+                 
+            </fieldset>
+                       
+        </form>
+        <section class="card">
+            <ul id="list__tags" data-js="card-to-submit"></ul> 
+        </section>
+        
+    </main>           
+    <footer class="footer">
+        <a  class="nav-bar-img" aria-label="home" href="index.html">            
+            <img class="home-page" alt="home page" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/48/null/external-home-essentials-tanah-basah-basic-outline-tanah-basah.png"/>
+        </a>
+        <a  class="nav-bar-img" aria-label="booksmarks" href="bookmarks.html">
+            <img class="bookmarks-page" alt="booksmarks page" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/48/null/external-bookmark-library-tanah-basah-basic-outline-tanah-basah.png"/>
+        </a>
+        <a class="nav-bar-img" aria-label="addCard" href="addCard.html">
+            <img class="addCard-page" alt="profile page" src="https://img.icons8.com/ios-filled/50/null/plus-2-math.png"/>
+        </a>     
+        <a  class="nav-bar-img" aria-label="profile" href="profile.html">
+            <img class="profile-page" alt="profile page" src="https://img.icons8.com/material-outlined/48/null/user-male-circle.png"/>
+        </a>           
+    </footer>
+    
+</body>
+</html>

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/index.js" defer></script>
     <link rel="stylesheet" href="../css/styles.css" />
     <title>Document</title>
 </head>
@@ -12,53 +13,34 @@
         <h1 class="header__title">Quiz App</h1>        
     </header>
     <main>
-        <section class="card">
-            <h2 class="card__heading">bbbbb</h2>
-            <button class="card__bookmark" aria-label="bookmark">
-                <img alt="bookmark" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/null/external-bookmark-library-tanah-basah-basic-outline-tanah-basah.png"/>
-            </button> <br><br>           
-            <button>Show answer</button> <br><br>
-            <ul class="list" role="list">
-                <li class="list-item">#mmmm</li>
-                <li class="list-item">#llll</li>
-                <li class="list-item">#aaaa</li>                
+        <section class="card">                      
+            <button class="card__bookmark" aria-label="card__bookmark" data-js="card__bookmark">
+                <img alt="bookmark" class="bookmark" data-js="bookmark" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/null/external-bookmark-library-tanah-basah-basic-outline-tanah-basah.png"/>
+            </button> <br><br> 
+            <h2 class="card__heading">bbbbb</h2>    
+            <p class="answer" data-js="answer" hidden>This paragraph should be hidden.</p>        
+            <button class="answer-button" data-js="answer-button">Show answer</button> <br><br>
+            <ul class="list__tags" id="list__tags" role="list">
+                <li class="list-item" id="list-item">#mmmm</li>
+                <li class="list-item" id="list-item">#llll</li>
+                <li class="list-item" id="list-item">#aaaa</li>                
             </ul>        
-        </section>  
-        <section class="card">
-            <h2 class="card__heading">bbbbb</h2>
-            <button class="card__bookmark" aria-label="bookmark">
-                <img alt="bookmark" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/null/external-bookmark-library-tanah-basah-basic-outline-tanah-basah.png"/>
-            </button> <br><br>
-            <button>Show answer</button> <br><br>
-            <ul class="list" role="list">
-                <li class="list-item">#mmmm</li>
-                <li class="list-item">#llll</li>
-                <li class="list-item">#aaaa</li>                
-            </ul>      
-        </section> 
-        <section class="card">
-            <h2 class="card__heading">bbbbb</h2>
-            <button class="card__bookmark" aria-label="bookmark">
-                <img alt="bookmark" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/24/null/external-bookmark-library-tanah-basah-basic-outline-tanah-basah.png"/>
-            </button> <br><br>
-            <button>Show answer</button> <br><br>
-            <ul class="list" role="list">
-                <li class="list-item">#mmmm</li>
-                <li class="list-item">#llll</li>
-                <li class="list-item">#aaaa</li>                
-            </ul>      
-        </section>      
+        </section>               
     </main>
     <footer class="footer">
-        <a class="home-page" aria-label="home" href="index.html">            
-            <img class="nav-bar-img" alt="home page" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-home-essentials-pack-tanah-basah-glyph-tanah-basah.png"/>
+        <a class="nav-bar-img" aria-label="home" href="index.html">            
+            <img class="home-page" alt="home page" src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/48/null/external-home-essentials-pack-tanah-basah-glyph-tanah-basah.png"/>
         </a>
-        <a class="bookmarks-page" aria-label="booksmarks" href="bookmarks.html">
-            <img class="nav-bar-img" alt="booksmarks page" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/48/null/external-bookmark-library-tanah-basah-basic-outline-tanah-basah.png"/>
+        <a class="nav-bar-img" aria-label="booksmarks" href="bookmarks.html">
+            <img class="home-page" alt="booksmarks page" src="https://img.icons8.com/external-tanah-basah-basic-outline-tanah-basah/48/null/external-bookmark-library-tanah-basah-basic-outline-tanah-basah.png"/>
+        </a> 
+        <a class="nav-bar-img" aria-label="addCard" href="addCard.html">
+            <img class="addCard-page" alt="profile page" src="https://img.icons8.com/ios/50/null/plus-2-math.png"/>
         </a>    
-        <a class="profile-page" aria-label="profile" href="profile.html">
-            <img class="nav-bar-img" alt="profile page" src="https://img.icons8.com/material-outlined/48/null/user-male-circle.png"/>
-        </a>           
+        <a class="nav-bar-img" aria-label="profile" href="profile.html">
+            <img class="profile-page" alt="profile page" src="https://img.icons8.com/material-outlined/48/null/user-male-circle.png"/>
+        </a>      
+            
       </footer>
    
     

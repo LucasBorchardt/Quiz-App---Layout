@@ -1,0 +1,16 @@
+.newCard {
+    display: flex;
+    flex-flow: column;
+    margin: 50px 10%;
+    border: 5px solid #252629;
+    padding: 3% 10%;
+    border-radius: 2rem;
+    position: relative;      
+    }
+.submit-button{
+    display: block;
+    padding: 2%;
+    width: 80px;
+    margin:auto;    
+}
+

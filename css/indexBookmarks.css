@@ -18,14 +18,14 @@
     width: 28px;
     height: 28px;
     }
-.list{
+#list__tags{
     list-style: none;
     padding-left: 0;
     display: flex;
     gap: 15px;
     flex-wrap: wrap;    
     }
-.list-item{
+#list-item{
     background-color: rgb(158, 157, 157);
     border-radius: 5px;
     padding: 1px 8px;
